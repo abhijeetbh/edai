@@ -2,10 +2,6 @@ from flask import Blueprint, redirect, url_for
 from flask import render_template
 from flask import request
 from flask import flash
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
-from imblearn.over_sampling import SMOTE
 import pandas
 import pickle
 import warnings
